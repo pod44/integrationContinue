@@ -6,10 +6,10 @@
   "scripts": {
     "prestart": "echo pre quality check ok",
     "start": "echo quality check in progress",
-    "poststart": "echo post quality check ok",
+    "poststart": "echo post quality check ok && npm run test",
     "pretest": "echo pretest ok",
     "test": "echo test in progress",
-	"posttest": "echo post test ok && npm run test"
+	"posttest": "echo post test ok"
   },
   "author": "Arnaud Lavallée arnaud.lavallee44@gmail.com",
   "license": "ISC"
