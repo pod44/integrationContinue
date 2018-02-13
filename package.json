@@ -1,0 +1,16 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "echo pre quality check ok",
+    "start": "echo quality check in progress",
+    "poststart": "echo post quality check ok",
+    "pretest": "echo pretest ok",
+    "test": "echo test in progress",
+	"posttest": "echo post test ok && npm run test"
+  },
+  "author": "Arnaud Lavallée arnaud.lavallee44@gmail.com",
+  "license": "ISC"
+}
